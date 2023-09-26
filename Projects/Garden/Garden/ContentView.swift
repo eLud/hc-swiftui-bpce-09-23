@@ -12,6 +12,8 @@ struct ContentView: View {
     @State private var data = ["a", "b", "c"]
     @State private var searchTerms = ""
 
+    @State private var showForm = false
+
     var body: some View {
         NavigationView {
             List {
@@ -29,7 +31,7 @@ struct ContentView: View {
                 }
                 Section {
                     ForEach(data, id: \.self) { i in
-                        Text("\(i)")
+                        TextField("", text: .constant("\(i)"))
                     }
                     .onDelete(perform: { indexSet in
                         data.remove(atOffsets: indexSet)
@@ -44,12 +46,25 @@ struct ContentView: View {
                     }
                 }
             }
-            .listStyle(.insetGrouped)
             .refreshable {
                 data = ["c", "d", "e"]
             }
             .searchable(text: $searchTerms)
             .navigationTitle("Garden")
+            .sheet(isPresented: $showForm) {
+                FormView()
+                    .presentationDetents([.large, .medium, .fraction(0.33)])
+                    .presentationBackgroundInteraction(.enabled(upThrough: .fraction(0.33)))
+            }
+            .toolbar {
+                ToolbarItem {
+                    Button {
+                        showForm.toggle()
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                }
+            }
         }
     }
 }
