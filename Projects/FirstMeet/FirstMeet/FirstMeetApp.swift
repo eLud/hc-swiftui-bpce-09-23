@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct FirstMeetApp: App {
+    
+    @StateObject private var userData = UserData()
+
     var body: some Scene {
         WindowGroup {
             ContentView(commercialImageName: nil)
+                .environmentObject(userData)
         }
     }
 }

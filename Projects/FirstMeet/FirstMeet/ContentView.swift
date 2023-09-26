@@ -9,10 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
 
+    @EnvironmentObject var userData: UserData
     let commercialImageName: String?
-    
-    @State private var buttonTitle = "Obtenir"
-    @State private var review = "Bla"
+
+    @Environment(\.colorScheme) var colorScheme
 
     private let headerHeight = 126.0
 
@@ -53,8 +53,8 @@ struct ContentView: View {
                     .font(.footnote)
                 Spacer()
                 HStack {
-                    Button(buttonTitle) {
-                        buttonTitle = "Téléchargement"
+                    Button(userData.isDownloaded ? "Téléchargement" : "Obtenir") {
+                        userData.download()
                     }
                     .buttonStyle(ColoredCapsuleButtonStyle())
                     .clipShape(Capsule())
@@ -72,6 +72,7 @@ struct ContentView: View {
         .padding(.horizontal)
         .frame(height: headerHeight)
     }
+
     private var appIcon: some View {
         Image(systemName: "leaf")
             .resizable()
@@ -80,7 +81,7 @@ struct ContentView: View {
             .padding(18)
             .background {
                 RoundedRectangle(cornerRadius: 18)
-                    .foregroundColor(.green)
+                    .foregroundColor(colorScheme == .dark ? .green : .red)
             }
     }
 
@@ -95,8 +96,8 @@ struct ContentView: View {
                 }
             }
             .scrollIndicators(.hidden, axes: .horizontal)
-            UserReviewView(review: $review)
-            Text(review)
+            UserReviewView(review: $userData.userReview)
+            Text(userData.userReview)
         }
     }
 }
@@ -126,8 +127,10 @@ struct ColoredCapsuleButtonStyle: ButtonStyle {
 
 #Preview {
     ContentView(commercialImageName: nil)
+        .environmentObject(UserData())
 }
 
 #Preview {
     ContentView(commercialImageName: "sun.horizon.fill")
+        .environmentObject(UserData())
 }

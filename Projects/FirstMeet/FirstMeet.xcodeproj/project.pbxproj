@@ -12,6 +12,7 @@
 		338F341B2AC182B700371A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338F341A2AC182B700371A1C /* Assets.xcassets */; };
 		338F341F2AC182B700371A1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338F341E2AC182B700371A1C /* Preview Assets.xcassets */; };
 		338F34262AC1E01800371A1C /* UserReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338F34252AC1E01800371A1C /* UserReviewView.swift */; };
+		338F34282AC2BDF800371A1C /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338F34272AC2BDF800371A1C /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		338F341C2AC182B700371A1C /* FirstMeet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstMeet.entitlements; sourceTree = "<group>"; };
 		338F341E2AC182B700371A1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		338F34252AC1E01800371A1C /* UserReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReviewView.swift; sourceTree = "<group>"; };
+		338F34272AC2BDF800371A1C /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				338F34162AC182B500371A1C /* FirstMeetApp.swift */,
 				338F34182AC182B500371A1C /* ContentView.swift */,
 				338F34252AC1E01800371A1C /* UserReviewView.swift */,
+				338F34272AC2BDF800371A1C /* UserData.swift */,
 				338F341A2AC182B700371A1C /* Assets.xcassets */,
 				338F341C2AC182B700371A1C /* FirstMeet.entitlements */,
 				338F341D2AC182B700371A1C /* Preview Content */,
@@ -144,6 +147,7 @@
 			files = (
 				338F34192AC182B500371A1C /* ContentView.swift in Sources */,
 				338F34172AC182B500371A1C /* FirstMeetApp.swift in Sources */,
+				338F34282AC2BDF800371A1C /* UserData.swift in Sources */,
 				338F34262AC1E01800371A1C /* UserReviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
