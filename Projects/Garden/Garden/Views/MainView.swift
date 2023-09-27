@@ -25,21 +25,11 @@ struct MainView: View {
                 .tabItem {
                     Label("Tree", systemImage: "tree")
                 }
-            Image(systemName: "tree")
+            Button("Log out") {
+                isLogged = false
+            }.buttonStyle(ColoredCapsuleButtonStyle())
                 .tabItem {
-                    Label("Tree", systemImage: "tree")
-                }
-            Image(systemName: "tree")
-                .tabItem {
-                    Label("Tree", systemImage: "tree")
-                }
-            Image(systemName: "tree")
-                .tabItem {
-                    Label("Tree", systemImage: "tree")
-                }
-            Image(systemName: "tree")
-                .tabItem {
-                    Label("Tree", systemImage: "tree")
+                    Label("Account", systemImage: "person")
                 }
         }    }
 }
