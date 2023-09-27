@@ -9,19 +9,33 @@ import SwiftUI
 
 struct DetailsView: View {
 
-    @State private var url = "https://www.apple.com"
+    @State private var urlString = "https://www.apple.com"
+    @State private var url: URL?
+    @State private var isLoading = false
 
     var body: some View {
         VStack {
-            TextField("URL", text: $url)
+            if isLoading {
+                ProgressView {
+                    Text("Loading")
+                }
+            }
+            TextField("URL", text: $urlString)
                 .textFieldStyle(.roundedBorder)
                 .padding()
-            if let url = URL(string: url) {
-                WebView(url: url)
-            }
+                .onKeyPress(keys: [.return]) { _ in
+                    url = URL(string: urlString)
+                    return .handled
+                }
+
+            WebView(url: $url, isLoading: $isLoading)
             Button("Navigate") {
-                url = "https://www.microsoft.com"
+                url = URL(string: "https://www.microsoft.com")
             }
+        }
+        .onChange(of: url) { oldValue, newValue in
+            guard let newValue else { return }
+            urlString = newValue.absoluteString
         }
     }
 }

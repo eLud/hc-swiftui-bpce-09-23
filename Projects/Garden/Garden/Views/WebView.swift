@@ -10,18 +10,47 @@ import SwiftUI
 
 struct WebView: UIViewRepresentable {
 
-    let url: URL
+    @Binding var url: URL?
+    @Binding var isLoading: Bool
 
     func makeUIView(context: Context) -> WKWebView {
         let webView = WKWebView()
+        webView.navigationDelegate = context.coordinator
         print("Make")
         return webView
     }
 
     func updateUIView(_ uiView: WKWebView, context: Context) {
-        if uiView.url != url {
+        if let url, uiView.url != url, !isLoading {
             uiView.load(URLRequest(url: url))
         }
         print("Update")
     }
+
+    func makeCoordinator() -> Coordinator {
+        print("Make Coord")
+        return Coordinator(parent: self)
+    }
+    
+    class Coordinator: NSObject, WKNavigationDelegate {
+
+        var parent: WebView
+
+        init(parent: WebView) {
+            self.parent = parent
+        }
+
+        func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+            parent.isLoading = true
+        }
+
+        func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+            parent.isLoading = false
+            if let url = webView.url {
+                parent.url = url
+            }
+        }
+    }
+
+
 }
