@@ -9,37 +9,17 @@ import SwiftUI
 
 @main
 struct GardenApp: App {
+
+    @State private var isLoggedIn = false
+
     var body: some Scene {
         WindowGroup {
-            TabView {
-                ContentView()
-                    .tabItem {
-                        Label("Garden", systemImage: "leaf")
-                    }
-                Text("Other View")
-                    .tabItem {
-                        Label("Other", systemImage: "gear")
-                    }
-                Image(systemName: "tree")
-                    .tabItem {
-                        Label("Tree", systemImage: "tree")
-                    }
-                Image(systemName: "tree")
-                    .tabItem {
-                        Label("Tree", systemImage: "tree")
-                    }
-                Image(systemName: "tree")
-                    .tabItem {
-                        Label("Tree", systemImage: "tree")
-                    }
-                Image(systemName: "tree")
-                    .tabItem {
-                        Label("Tree", systemImage: "tree")
-                    }
-                Image(systemName: "tree")
-                    .tabItem {
-                        Label("Tree", systemImage: "tree")
-                    }
+            if isLoggedIn {
+                MainView(isLogged: $isLoggedIn)
+                    .transition(.scale.combined(with: .opacity).animation(.easeInOut))
+            } else {
+                LoginView(isLogged: $isLoggedIn)
+                    .transition(.scale.combined(with: .opacity).animation(.easeInOut))
             }
         }
     }

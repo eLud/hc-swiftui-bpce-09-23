@@ -12,6 +12,8 @@
 		338F343A2AC30BB000371A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338F34392AC30BB000371A1C /* Assets.xcassets */; };
 		338F343E2AC30BB000371A1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338F343D2AC30BB000371A1C /* Preview Assets.xcassets */; };
 		338F34452AC3258F00371A1C /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338F34442AC3258F00371A1C /* FormView.swift */; };
+		33A1994C2AC4116100B6ACD4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1994B2AC4116100B6ACD4 /* MainView.swift */; };
+		33A1994E2AC4117600B6ACD4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A1994D2AC4117600B6ACD4 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		338F343B2AC30BB000371A1C /* Garden.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Garden.entitlements; sourceTree = "<group>"; };
 		338F343D2AC30BB000371A1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		338F34442AC3258F00371A1C /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		33A1994B2AC4116100B6ACD4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		33A1994D2AC4117600B6ACD4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				338F34352AC30BAE00371A1C /* GardenApp.swift */,
+				33A1994D2AC4117600B6ACD4 /* LoginView.swift */,
+				33A1994B2AC4116100B6ACD4 /* MainView.swift */,
 				338F34372AC30BAE00371A1C /* ContentView.swift */,
 				338F34442AC3258F00371A1C /* FormView.swift */,
 				338F34392AC30BB000371A1C /* Assets.xcassets */,
@@ -143,7 +149,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				338F34452AC3258F00371A1C /* FormView.swift in Sources */,
+				33A1994C2AC4116100B6ACD4 /* MainView.swift in Sources */,
 				338F34382AC30BAE00371A1C /* ContentView.swift in Sources */,
+				33A1994E2AC4117600B6ACD4 /* LoginView.swift in Sources */,
 				338F34362AC30BAE00371A1C /* GardenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

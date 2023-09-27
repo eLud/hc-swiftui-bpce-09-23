@@ -14,6 +14,8 @@ struct ContentView: View {
 
     @State private var showForm = false
 
+    @Binding var isLogged: Bool
+
     var body: some View {
         NavigationView {
             List {
@@ -22,6 +24,9 @@ struct ContentView: View {
                         withAnimation {
                             data.append("d")
                         }
+                    }
+                    Button("logout") {
+                        isLogged = false
                     }
                 }
                 Section {
@@ -52,7 +57,7 @@ struct ContentView: View {
             .searchable(text: $searchTerms)
             .navigationTitle("Garden")
             .sheet(isPresented: $showForm) {
-                FormView()
+                FormView(isLogged: $isLogged)
                     .presentationDetents([.large, .medium, .fraction(0.33)])
                     .presentationBackgroundInteraction(.enabled(upThrough: .fraction(0.33)))
             }
@@ -70,5 +75,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(isLogged: .constant(true))
 }
