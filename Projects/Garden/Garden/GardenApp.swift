@@ -19,7 +19,8 @@ struct GardenApp: App {
                     .transition(.scale.combined(with: .opacity).animation(.easeInOut))
             } else {
                 LoginView(isLogged: $isLoggedIn)
-                    .transition(.scale.combined(with: .opacity).animation(.easeInOut))
+//                    .transition(.scale.combined(with: .opacity).animation(.easeInOut))
+                    .transition(.asymmetric(insertion: .opacity, removal: .scale).animation(.bouncy))
             }
         }
     }
