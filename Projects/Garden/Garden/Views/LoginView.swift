@@ -20,6 +20,7 @@ struct LoginView: View {
             Button("Connect") {
                 isLogged = login == password
             }
+            .isHidden(login.isEmpty)
             .padding()
         }
         .textFieldStyle(.roundedBorder)
@@ -27,6 +28,8 @@ struct LoginView: View {
         .padding()
     }
 }
+
+
 
 #Preview {
     LoginView(isLogged: .constant(true))

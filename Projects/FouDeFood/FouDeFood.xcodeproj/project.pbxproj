@@ -1,0 +1,1279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333430C12A4C1E4B00A412E8 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 333430C02A4C1E4B00A412E8 /* Common */; };
+		333430C92A4C3F0100A412E8 /* FouDeFoodTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */; };
+		333430CB2A4C3F0100A412E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333430CA2A4C3F0100A412E8 /* ContentView.swift */; };
+		333430CD2A4C3F0200A412E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333430CC2A4C3F0200A412E8 /* Assets.xcassets */; };
+		333430D02A4C3F0200A412E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */; };
+		333430D52A4C421700A412E8 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 333430D42A4C421700A412E8 /* Common */; };
+		337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */; };
+		337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */; };
+		337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */; };
+		337D2A582A4C6B560054F5CA /* RestaurantImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */; };
+		337D2A5F2A4C70930054F5CA /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 337D2A5E2A4C70930054F5CA /* TVServices.framework */; };
+		337D2A622A4C70930054F5CA /* ContentProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337D2A612A4C70930054F5CA /* ContentProvider.swift */; };
+		337D2A662A4C70930054F5CA /* FouDeFoodTopShelf.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FA2A2A4D8449007E9596 /* FouDeFoodWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA292A4D8449007E9596 /* FouDeFoodWatchApp.swift */; };
+		33C4FA2C2A4D8449007E9596 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA2B2A4D8449007E9596 /* ContentView.swift */; };
+		33C4FA2E2A4D844A007E9596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FA2D2A4D844A007E9596 /* Assets.xcassets */; };
+		33C4FA312A4D844A007E9596 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FA302A4D844A007E9596 /* Preview Assets.xcassets */; };
+		33C4FA342A4D844A007E9596 /* FouDeFoodWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 33C4FA272A4D8449007E9596 /* FouDeFoodWatch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FA3A2A4D86A7007E9596 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = 33C4FA392A4D86A7007E9596 /* Common */; };
+		33C4FA782A4DBC85007E9596 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4FA772A4DBC85007E9596 /* WidgetKit.framework */; };
+		33C4FA7A2A4DBC85007E9596 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4FA792A4DBC85007E9596 /* SwiftUI.framework */; };
+		33C4FA7D2A4DBC85007E9596 /* FouDeFoodWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA7C2A4DBC85007E9596 /* FouDeFoodWidget.swift */; };
+		33C4FA7F2A4DBC86007E9596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FA7E2A4DBC86007E9596 /* Assets.xcassets */; };
+		33C4FA832A4DBC86007E9596 /* FouDeFoodWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 33C4FA762A4DBC85007E9596 /* FouDeFoodWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FA912A4DBD08007E9596 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4FA772A4DBC85007E9596 /* WidgetKit.framework */; };
+		33C4FA922A4DBD08007E9596 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33C4FA792A4DBC85007E9596 /* SwiftUI.framework */; };
+		33C4FA952A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA942A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift */; };
+		33C4FA972A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33C4FA962A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift */; };
+		33C4FA992A4DBD09007E9596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FA982A4DBD09007E9596 /* Assets.xcassets */; };
+		33C4FA9D2A4DBD09007E9596 /* FoudDeFoodWidgetiOSExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33C4FAA22A4DDEAA007E9596 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 33C4FAA12A4DDEAA007E9596 /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		337D2A642A4C70930054F5CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 337D2A5C2A4C70930054F5CA;
+			remoteInfo = FouDeFoodTopShelf;
+		};
+		33C4FA322A4D844A007E9596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C4FA262A4D8449007E9596;
+			remoteInfo = "FouDeFoodWatch Watch App";
+		};
+		33C4FA812A4DBC86007E9596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C4FA752A4DBC85007E9596;
+			remoteInfo = FouDeFoodWidgetExtension;
+		};
+		33C4FA9B2A4DBD09007E9596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33C4FA8F2A4DBD08007E9596;
+			remoteInfo = FoudDeFoodWidgetiOSExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		337D2A6A2A4C70930054F5CA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				337D2A662A4C70930054F5CA /* FouDeFoodTopShelf.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA352A4D844A007E9596 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				33C4FA342A4D844A007E9596 /* FouDeFoodWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA872A4DBC86007E9596 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33C4FA832A4DBC86007E9596 /* FouDeFoodWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA8B2A4DBCAC007E9596 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33C4FA9D2A4DBD09007E9596 /* FoudDeFoodWidgetiOSExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		333430BE2A4C1DDF00A412E8 /* Common */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Common; path = ../Common; sourceTree = "<group>"; };
+		333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FouDeFoodTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodTVApp.swift; sourceTree = "<group>"; };
+		333430CA2A4C3F0100A412E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		333430CC2A4C3F0200A412E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FouDeFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodApp.swift; sourceTree = "<group>"; };
+		337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FouDeFood.entitlements; sourceTree = "<group>"; };
+		337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantImageCell.swift; sourceTree = "<group>"; };
+		337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FouDeFoodTopShelf.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		337D2A5E2A4C70930054F5CA /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = Library/Frameworks/TVServices.framework; sourceTree = DEVELOPER_DIR; };
+		337D2A612A4C70930054F5CA /* ContentProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentProvider.swift; sourceTree = "<group>"; };
+		337D2A632A4C70930054F5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		337D2A6B2A4C778C0054F5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		33C4FA272A4D8449007E9596 /* FouDeFoodWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FouDeFoodWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C4FA292A4D8449007E9596 /* FouDeFoodWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodWatchApp.swift; sourceTree = "<group>"; };
+		33C4FA2B2A4D8449007E9596 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33C4FA2D2A4D844A007E9596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C4FA302A4D844A007E9596 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33C4FA712A4D8D79007E9596 /* FouDeFoodWatch-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "FouDeFoodWatch-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		33C4FA762A4DBC85007E9596 /* FouDeFoodWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FouDeFoodWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C4FA772A4DBC85007E9596 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		33C4FA792A4DBC85007E9596 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		33C4FA7C2A4DBC85007E9596 /* FouDeFoodWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FouDeFoodWidget.swift; sourceTree = "<group>"; };
+		33C4FA7E2A4DBC86007E9596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C4FA802A4DBC86007E9596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = FoudDeFoodWidgetiOSExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C4FA942A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoudDeFoodWidgetiOSBundle.swift; sourceTree = "<group>"; };
+		33C4FA962A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoudDeFoodWidgetiOS.swift; sourceTree = "<group>"; };
+		33C4FA982A4DBD09007E9596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33C4FA9A2A4DBD09007E9596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33C4FAA12A4DDEAA007E9596 /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		333430C32A4C3F0100A412E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430D52A4C421700A412E8 /* Common in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337BEC752A4ADCB8007A1FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430C12A4C1E4B00A412E8 /* Common in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D2A5A2A4C70930054F5CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D2A5F2A4C70930054F5CA /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA242A4D8449007E9596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA3A2A4D86A7007E9596 /* Common in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA732A4DBC85007E9596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA7A2A4DBC85007E9596 /* SwiftUI.framework in Frameworks */,
+				33C4FA782A4DBC85007E9596 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA8D2A4DBD08007E9596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA922A4DBD08007E9596 /* SwiftUI.framework in Frameworks */,
+				33C4FA912A4DBD08007E9596 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333430BF2A4C1E4B00A412E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				337D2A5E2A4C70930054F5CA /* TVServices.framework */,
+				33C4FA772A4DBC85007E9596 /* WidgetKit.framework */,
+				33C4FA792A4DBC85007E9596 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333430C72A4C3F0100A412E8 /* FouDeFoodTV */ = {
+			isa = PBXGroup;
+			children = (
+				337D2A6B2A4C778C0054F5CA /* Info.plist */,
+				333430C82A4C3F0100A412E8 /* FouDeFoodTVApp.swift */,
+				333430CA2A4C3F0100A412E8 /* ContentView.swift */,
+				337D2A572A4C6B560054F5CA /* RestaurantImageCell.swift */,
+				333430CC2A4C3F0200A412E8 /* Assets.xcassets */,
+				333430CE2A4C3F0200A412E8 /* Preview Content */,
+			);
+			path = FouDeFoodTV;
+			sourceTree = "<group>";
+		};
+		333430CE2A4C3F0200A412E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				333430CF2A4C3F0200A412E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		337BEC6F2A4ADCB8007A1FE5 = {
+			isa = PBXGroup;
+			children = (
+				33A45FB32A4C1D87009E0F74 /* Packages */,
+				337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */,
+				333430C72A4C3F0100A412E8 /* FouDeFoodTV */,
+				337D2A602A4C70930054F5CA /* FouDeFoodTopShelf */,
+				33C4FA282A4D8449007E9596 /* FouDeFoodWatch Watch App */,
+				33C4FA7B2A4DBC85007E9596 /* FouDeFoodWidget */,
+				33C4FA932A4DBD08007E9596 /* FoudDeFoodWidgetiOS */,
+				337BEC792A4ADCB8007A1FE5 /* Products */,
+				333430BF2A4C1E4B00A412E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		337BEC792A4ADCB8007A1FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */,
+				333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */,
+				337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */,
+				33C4FA272A4D8449007E9596 /* FouDeFoodWatch Watch App.app */,
+				33C4FA762A4DBC85007E9596 /* FouDeFoodWidgetExtension.appex */,
+				33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		337BEC7A2A4ADCB8007A1FE5 /* FouDeFood */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC7B2A4ADCB8007A1FE5 /* FouDeFoodApp.swift */,
+				337BEC8F2A4ADE83007A1FE5 /* Models */,
+				337BEC8C2A4ADD1C007A1FE5 /* Views */,
+				337BEC7F2A4ADCBA007A1FE5 /* Assets.xcassets */,
+				337BEC812A4ADCBA007A1FE5 /* FouDeFood.entitlements */,
+				337BEC822A4ADCBA007A1FE5 /* Preview Content */,
+				33C4FAA12A4DDEAA007E9596 /* Credits.rtf */,
+			);
+			path = FouDeFood;
+			sourceTree = "<group>";
+		};
+		337BEC822A4ADCBA007A1FE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				337BEC832A4ADCBA007A1FE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		337BEC8C2A4ADD1C007A1FE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		337BEC8F2A4ADE83007A1FE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		337D2A602A4C70930054F5CA /* FouDeFoodTopShelf */ = {
+			isa = PBXGroup;
+			children = (
+				337D2A612A4C70930054F5CA /* ContentProvider.swift */,
+				337D2A632A4C70930054F5CA /* Info.plist */,
+			);
+			path = FouDeFoodTopShelf;
+			sourceTree = "<group>";
+		};
+		33A45FB32A4C1D87009E0F74 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				333430BE2A4C1DDF00A412E8 /* Common */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		33C4FA282A4D8449007E9596 /* FouDeFoodWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				33C4FA712A4D8D79007E9596 /* FouDeFoodWatch-Watch-App-Info.plist */,
+				33C4FA292A4D8449007E9596 /* FouDeFoodWatchApp.swift */,
+				33C4FA2B2A4D8449007E9596 /* ContentView.swift */,
+				33C4FA2D2A4D844A007E9596 /* Assets.xcassets */,
+				33C4FA2F2A4D844A007E9596 /* Preview Content */,
+			);
+			path = "FouDeFoodWatch Watch App";
+			sourceTree = "<group>";
+		};
+		33C4FA2F2A4D844A007E9596 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33C4FA302A4D844A007E9596 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33C4FA7B2A4DBC85007E9596 /* FouDeFoodWidget */ = {
+			isa = PBXGroup;
+			children = (
+				33C4FA7C2A4DBC85007E9596 /* FouDeFoodWidget.swift */,
+				33C4FA7E2A4DBC86007E9596 /* Assets.xcassets */,
+				33C4FA802A4DBC86007E9596 /* Info.plist */,
+			);
+			path = FouDeFoodWidget;
+			sourceTree = "<group>";
+		};
+		33C4FA932A4DBD08007E9596 /* FoudDeFoodWidgetiOS */ = {
+			isa = PBXGroup;
+			children = (
+				33C4FA942A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift */,
+				33C4FA962A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift */,
+				33C4FA982A4DBD09007E9596 /* Assets.xcassets */,
+				33C4FA9A2A4DBD09007E9596 /* Info.plist */,
+			);
+			path = FoudDeFoodWidgetiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		333430C52A4C3F0100A412E8 /* FouDeFoodTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 333430D12A4C3F0200A412E8 /* Build configuration list for PBXNativeTarget "FouDeFoodTV" */;
+			buildPhases = (
+				333430C22A4C3F0100A412E8 /* Sources */,
+				333430C32A4C3F0100A412E8 /* Frameworks */,
+				333430C42A4C3F0100A412E8 /* Resources */,
+				337D2A6A2A4C70930054F5CA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				337D2A652A4C70930054F5CA /* PBXTargetDependency */,
+			);
+			name = FouDeFoodTV;
+			packageProductDependencies = (
+				333430D42A4C421700A412E8 /* Common */,
+			);
+			productName = FouDeFoodTV;
+			productReference = 333430C62A4C3F0100A412E8 /* FouDeFoodTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		337BEC772A4ADCB8007A1FE5 /* FouDeFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337BEC872A4ADCBA007A1FE5 /* Build configuration list for PBXNativeTarget "FouDeFood" */;
+			buildPhases = (
+				337BEC742A4ADCB8007A1FE5 /* Sources */,
+				337BEC752A4ADCB8007A1FE5 /* Frameworks */,
+				337BEC762A4ADCB8007A1FE5 /* Resources */,
+				33C4FA352A4D844A007E9596 /* Embed Watch Content */,
+				33C4FA8B2A4DBCAC007E9596 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C4FA332A4D844A007E9596 /* PBXTargetDependency */,
+				33C4FA9C2A4DBD09007E9596 /* PBXTargetDependency */,
+			);
+			name = FouDeFood;
+			packageProductDependencies = (
+				333430C02A4C1E4B00A412E8 /* Common */,
+			);
+			productName = FouDeFood;
+			productReference = 337BEC782A4ADCB8007A1FE5 /* FouDeFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 337D2A672A4C70930054F5CA /* Build configuration list for PBXNativeTarget "FouDeFoodTopShelf" */;
+			buildPhases = (
+				337D2A592A4C70930054F5CA /* Sources */,
+				337D2A5A2A4C70930054F5CA /* Frameworks */,
+				337D2A5B2A4C70930054F5CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FouDeFoodTopShelf;
+			productName = FouDeFoodTopShelf;
+			productReference = 337D2A5D2A4C70930054F5CA /* FouDeFoodTopShelf.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		33C4FA262A4D8449007E9596 /* FouDeFoodWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C4FA382A4D844A007E9596 /* Build configuration list for PBXNativeTarget "FouDeFoodWatch Watch App" */;
+			buildPhases = (
+				33C4FA232A4D8449007E9596 /* Sources */,
+				33C4FA242A4D8449007E9596 /* Frameworks */,
+				33C4FA252A4D8449007E9596 /* Resources */,
+				33C4FA872A4DBC86007E9596 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33C4FA822A4DBC86007E9596 /* PBXTargetDependency */,
+			);
+			name = "FouDeFoodWatch Watch App";
+			packageProductDependencies = (
+				33C4FA392A4D86A7007E9596 /* Common */,
+			);
+			productName = "FouDeFoodWatch Watch App";
+			productReference = 33C4FA272A4D8449007E9596 /* FouDeFoodWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33C4FA752A4DBC85007E9596 /* FouDeFoodWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C4FA842A4DBC86007E9596 /* Build configuration list for PBXNativeTarget "FouDeFoodWidgetExtension" */;
+			buildPhases = (
+				33C4FA722A4DBC85007E9596 /* Sources */,
+				33C4FA732A4DBC85007E9596 /* Frameworks */,
+				33C4FA742A4DBC85007E9596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FouDeFoodWidgetExtension;
+			productName = FouDeFoodWidgetExtension;
+			productReference = 33C4FA762A4DBC85007E9596 /* FouDeFoodWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		33C4FA8F2A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C4FA9E2A4DBD09007E9596 /* Build configuration list for PBXNativeTarget "FoudDeFoodWidgetiOSExtension" */;
+			buildPhases = (
+				33C4FA8C2A4DBD08007E9596 /* Sources */,
+				33C4FA8D2A4DBD08007E9596 /* Frameworks */,
+				33C4FA8E2A4DBD08007E9596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoudDeFoodWidgetiOSExtension;
+			productName = FoudDeFoodWidgetiOSExtension;
+			productReference = 33C4FA902A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		337BEC702A4ADCB8007A1FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					333430C52A4C3F0100A412E8 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					337BEC772A4ADCB8007A1FE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					337D2A5C2A4C70930054F5CA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					33C4FA262A4D8449007E9596 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					33C4FA752A4DBC85007E9596 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					33C4FA8F2A4DBD08007E9596 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 337BEC732A4ADCB8007A1FE5 /* Build configuration list for PBXProject "FouDeFood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 337BEC6F2A4ADCB8007A1FE5;
+			packageReferences = (
+			);
+			productRefGroup = 337BEC792A4ADCB8007A1FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				337BEC772A4ADCB8007A1FE5 /* FouDeFood */,
+				333430C52A4C3F0100A412E8 /* FouDeFoodTV */,
+				337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */,
+				33C4FA262A4D8449007E9596 /* FouDeFoodWatch Watch App */,
+				33C4FA752A4DBC85007E9596 /* FouDeFoodWidgetExtension */,
+				33C4FA8F2A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		333430C42A4C3F0100A412E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430D02A4C3F0200A412E8 /* Preview Assets.xcassets in Resources */,
+				333430CD2A4C3F0200A412E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337BEC762A4ADCB8007A1FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337BEC842A4ADCBA007A1FE5 /* Preview Assets.xcassets in Resources */,
+				33C4FAA22A4DDEAA007E9596 /* Credits.rtf in Resources */,
+				337BEC802A4ADCBA007A1FE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D2A5B2A4C70930054F5CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA252A4D8449007E9596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA312A4D844A007E9596 /* Preview Assets.xcassets in Resources */,
+				33C4FA2E2A4D844A007E9596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA742A4DBC85007E9596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA7F2A4DBC86007E9596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA8E2A4DBD08007E9596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA992A4DBD09007E9596 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		333430C22A4C3F0100A412E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333430CB2A4C3F0100A412E8 /* ContentView.swift in Sources */,
+				333430C92A4C3F0100A412E8 /* FouDeFoodTVApp.swift in Sources */,
+				337D2A582A4C6B560054F5CA /* RestaurantImageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337BEC742A4ADCB8007A1FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337BEC7C2A4ADCB8007A1FE5 /* FouDeFoodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337D2A592A4C70930054F5CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337D2A622A4C70930054F5CA /* ContentProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA232A4D8449007E9596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA2C2A4D8449007E9596 /* ContentView.swift in Sources */,
+				33C4FA2A2A4D8449007E9596 /* FouDeFoodWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA722A4DBC85007E9596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA7D2A4DBC85007E9596 /* FouDeFoodWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33C4FA8C2A4DBD08007E9596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33C4FA972A4DBD08007E9596 /* FoudDeFoodWidgetiOS.swift in Sources */,
+				33C4FA952A4DBD08007E9596 /* FoudDeFoodWidgetiOSBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		337D2A652A4C70930054F5CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 337D2A5C2A4C70930054F5CA /* FouDeFoodTopShelf */;
+			targetProxy = 337D2A642A4C70930054F5CA /* PBXContainerItemProxy */;
+		};
+		33C4FA332A4D844A007E9596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 33C4FA262A4D8449007E9596 /* FouDeFoodWatch Watch App */;
+			targetProxy = 33C4FA322A4D844A007E9596 /* PBXContainerItemProxy */;
+		};
+		33C4FA822A4DBC86007E9596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33C4FA752A4DBC85007E9596 /* FouDeFoodWidgetExtension */;
+			targetProxy = 33C4FA812A4DBC86007E9596 /* PBXContainerItemProxy */;
+		};
+		33C4FA9C2A4DBD09007E9596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 33C4FA8F2A4DBD08007E9596 /* FoudDeFoodWidgetiOSExtension */;
+			targetProxy = 33C4FA9B2A4DBD09007E9596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		333430D22A4C3F0200A412E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTV/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		333430D32A4C3F0200A412E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodTV/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTV/Info.plist;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		337BEC852A4ADCBA007A1FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		337BEC862A4ADCBA007A1FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		337BEC882A4ADCBA007A1FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FouDeFood/FouDeFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		337BEC892A4ADCBA007A1FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FouDeFood/FouDeFood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFood/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		337D2A682A4C70930054F5CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodTopShelf;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV.FouDeFoodTopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+			};
+			name = Debug;
+		};
+		337D2A692A4C70930054F5CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodTopShelf/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodTopShelf;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFoodTV.FouDeFoodTopShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 16.4;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33C4FA362A4D844A007E9596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FouDeFoodWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = fr.tectec.FouDeFood;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		33C4FA372A4D844A007E9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FouDeFoodWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FouDeFoodWatch-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = fr.tectec.FouDeFood;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		33C4FA852A4DBC86007E9596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.watchkitapp.FouDeFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		33C4FA862A4DBC86007E9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FouDeFoodWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FouDeFoodWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.watchkitapp.FouDeFoodWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		33C4FA9F2A4DBD09007E9596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoudDeFoodWidgetiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoudDeFoodWidgetiOS;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.FoudDeFoodWidgetiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33C4FAA02A4DBD09007E9596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A7SGM6JEMA;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoudDeFoodWidgetiOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FoudDeFoodWidgetiOS;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.tectec.FouDeFood.FoudDeFoodWidgetiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		333430D12A4C3F0200A412E8 /* Build configuration list for PBXNativeTarget "FouDeFoodTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				333430D22A4C3F0200A412E8 /* Debug */,
+				333430D32A4C3F0200A412E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337BEC732A4ADCB8007A1FE5 /* Build configuration list for PBXProject "FouDeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337BEC852A4ADCBA007A1FE5 /* Debug */,
+				337BEC862A4ADCBA007A1FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337BEC872A4ADCBA007A1FE5 /* Build configuration list for PBXNativeTarget "FouDeFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337BEC882A4ADCBA007A1FE5 /* Debug */,
+				337BEC892A4ADCBA007A1FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		337D2A672A4C70930054F5CA /* Build configuration list for PBXNativeTarget "FouDeFoodTopShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				337D2A682A4C70930054F5CA /* Debug */,
+				337D2A692A4C70930054F5CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C4FA382A4D844A007E9596 /* Build configuration list for PBXNativeTarget "FouDeFoodWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C4FA362A4D844A007E9596 /* Debug */,
+				33C4FA372A4D844A007E9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C4FA842A4DBC86007E9596 /* Build configuration list for PBXNativeTarget "FouDeFoodWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C4FA852A4DBC86007E9596 /* Debug */,
+				33C4FA862A4DBC86007E9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33C4FA9E2A4DBD09007E9596 /* Build configuration list for PBXNativeTarget "FoudDeFoodWidgetiOSExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33C4FA9F2A4DBD09007E9596 /* Debug */,
+				33C4FAA02A4DBD09007E9596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		333430C02A4C1E4B00A412E8 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		333430D42A4C421700A412E8 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		33C4FA392A4D86A7007E9596 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 337BEC702A4ADCB8007A1FE5 /* Project object */;
+}

@@ -17,7 +17,7 @@ struct ContentView: View {
     @Binding var isLogged: Bool
 
     var body: some View {
-        NavigationView {
+        NavigationSplitView {
             List {
                 Section {
                     Button("Add") {

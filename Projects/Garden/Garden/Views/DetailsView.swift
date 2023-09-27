@@ -23,7 +23,7 @@ struct DetailsView: View {
             TextField("URL", text: $urlString)
                 .textFieldStyle(.roundedBorder)
                 .padding()
-                .onKeyPress(keys: [.return]) { _ in
+                .onKeyPress(keys: [.return, .downArrow]) { _ in
                     url = URL(string: urlString)
                     return .handled
                 }
