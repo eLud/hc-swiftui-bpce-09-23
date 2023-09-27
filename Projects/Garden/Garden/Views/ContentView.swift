@@ -31,7 +31,7 @@ struct ContentView: View {
                 }
                 Section {
                     ForEach(data, id: \.self) { i in
-                        NavigationLink("\(i)", destination: Text("\(i)"))
+                        NavigationLink("\(i)", destination: DetailsView())
                     }
                 }
                 Section {
